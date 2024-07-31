@@ -1,0 +1,19 @@
+   <div className="border-b py-4 text-center">
+        <h1>Create a new account</h1>
+        <p>It's quick and easy</p>
+      </div>
+      <div className="py-5 px-[16px]">
+        <div className='justify-between grid grid-cols-2 gap-3'>
+          <input type="text" className='bg-transparent border' placeholder='First name' />
+          <input type="text" className='bg-transparent border' placeholder='Surname' />
+        </div>
+        <div className="flex items-center justify-between">
+          <input type="text" className='bg-transparent' placeholder='Mobile number or email address' />
+        </div>
+        <input type="password" className='bg-transparent' placeholder='New password' />
+        <div className="">
+          <div className="flex space-between">
+            <h5 className='flex items-center'>Date of birth <span><BsQuestionCircleFill/></span></h5>
+          </div>
+        </div>
+      </div>

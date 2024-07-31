@@ -1,0 +1,26 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glass-effect{
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow:inset 0 4px 30px  rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+@layer utilities{
+    .perspective{
+        perspective: 100px;
+    }
+    .preserve-3d{
+        transform-style: preserve-3d;
+    }
+    .distance-1{
+        transform: translateZ(-100px) scale(2);
+    }
+    .distance-2{
+        transform: translateZ(-50px) scale(1.5);
+    }
+}   	
